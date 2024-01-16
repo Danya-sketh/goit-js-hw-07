@@ -1,5 +1,5 @@
-const nameInput = document.getElementById('name-input');
-const nameOutput = document.getElementById('name-output');
+const nameInput = document.querySelectorAll('name-input');
+const nameOutput = document.querySelectorAll('name-output');
 
 nameInput.addEventListener('input', updateGreeting);
 

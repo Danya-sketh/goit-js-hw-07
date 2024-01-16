@@ -1,6 +1,6 @@
-`use strict`
 
-const categoriesList = document.getElementById('categories');
+
+const categoriesList = document.querySelectorAll('categories');
 
 const categoriesItems = categoriesList.querySelectorAll('li.item');
 
