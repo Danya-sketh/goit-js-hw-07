@@ -1,0 +1,34 @@
+.main-container {
+    padding: 24px;
+}
+
+
+.item {
+    background-color: #e8f4fc;
+    text-decoration: none;
+    border-radius: 8px;
+    margin: 0px;
+    
+}
+
+#categories {
+    list-style: none;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    gap: 24px;
+}
+
+.list {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+h2 {
+    margin: 0px;
+}
+
+.ul-container {
+    padding: 16px;
+}

@@ -1,6 +1,6 @@
 
 
-const categoriesList = document.querySelectorAll('categories');
+const categoriesList = document.querySelector('#categories');
 
 const categoriesItems = categoriesList.querySelectorAll('li.item');
 
@@ -18,3 +18,5 @@ categoriesItems.forEach((category) => {
   
   console.log(`${categoryTitle} - Кількість елементів: ${categoryItems.length}`);
 });
+
+

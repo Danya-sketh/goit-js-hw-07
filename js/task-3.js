@@ -1,7 +1,7 @@
-const nameInput = document.querySelectorAll('name-input');
-const nameOutput = document.querySelectorAll('name-output');
+const nameInput = document.querySelector('#name-input');
+const nameOutput = document.querySelector('#name-output');
 
-nameInput.addEventListener('input', updateGreeting);
+nameInput.addEventListener('#input', updateGreeting);
 
 function updateGreeting() {
   

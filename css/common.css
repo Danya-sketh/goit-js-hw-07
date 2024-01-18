@@ -1,0 +1,15 @@
+.container {
+    padding: 100px 156px 100px 156px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px 48px;
+    justify-content: center;
+    list-style: none;
+}
+
+.gallery-item {
+    width: calc((100% - 40px) / 3);
+}
