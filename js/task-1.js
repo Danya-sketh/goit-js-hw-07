@@ -5,7 +5,7 @@ const categoriesList = document.querySelector('#categories');
 const categoriesItems = categoriesList.querySelectorAll('li.item');
 
 
-console.log('Кількість категорій:', categoriesItems.length);
+console.log('Number of categories:', categoriesItems.length);
 
 
 categoriesItems.forEach((category) => {
@@ -16,7 +16,9 @@ categoriesItems.forEach((category) => {
   const categoryItems = category.querySelectorAll('ul > li');
 
   
-  console.log(`${categoryTitle} - Кількість елементів: ${categoryItems.length}`);
+  
+  console.log(`Category: ${categoryTitle}`)
+console.log(`Elements: ${categoryItems.length}`)
 });
 
 
